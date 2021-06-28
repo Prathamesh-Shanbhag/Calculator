@@ -15,10 +15,10 @@
  --primary-color: #333;
  --header-color: #000;
  --footer-bg: #000;
-
  --symbol-color: transparent;
  --symbol-hover: #ff5722;
  --slider-circle: #fff;
+ --background-image:url(./images/dark.jpg) ;
 }
 
 *{
@@ -37,7 +37,6 @@ body{
  align-items: center;
  width: 100vw;
  height: 100vh;
- background-color: var(--primary-color);
 }
 
 .calculator{
@@ -60,7 +59,6 @@ body{
 }
 
 .calculator-body{
- display: flex;
  justify-content: flex-end;
  align-items: flex-end;
  padding: 20px;
